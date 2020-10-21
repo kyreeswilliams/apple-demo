@@ -5,7 +5,7 @@
 First, make sure you create an .env file at the root of the project, with the following
 
 ```
-VUE_APP_API_KEY=CC7wpqwalHRc7jRbsB42Pc9-u9A
+VUE_APP_API_KEY=<YOUR_CLEVERBOT_API_KEY>
 VUE_APP_API=https://www.cleverbot.com/getreply
 ```
 Then run:
