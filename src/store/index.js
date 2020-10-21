@@ -6,7 +6,8 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    chat: []
+    chat: [],
+    name: 'Your Name Here'
   },
   getters: {
     getChat: state => {
@@ -21,6 +22,9 @@ export default new Vuex.Store({
           type: payload.type
         }
       )
+    },
+    updateName (state, value) {
+      state.name = value
     }
   },
   actions: {
